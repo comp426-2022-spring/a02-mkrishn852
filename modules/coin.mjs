@@ -102,18 +102,17 @@ export function countFlips(array) {
 */
 
 export function flipACoin(call) {
-  var result = {
-    call: call,
+  var statement = {
+    call,
     flip: coinFlip(),
-    resulting: "",
+    result: "",
   };
-
-  if (result.call === result.flip) {
-    result.resulting = "win";
+  if (statement.call === statement.flip) {
+    statement.result = "win";
   } else {
-    result.resulting = "lose";
+    statement.result = "lose";
   }
-  return result;
+  return statement;
 }
 
 
