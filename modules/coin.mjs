@@ -68,7 +68,7 @@ export function coinFlips(flips) {
 * @returns {{ heads: number, tails: number }}
 */
 
-function countFlips(array) {
+export function countFlips(array) {
   var count;
   var heads = 0;
   var tails = 0;
@@ -101,7 +101,7 @@ function countFlips(array) {
 * returns: { call: 'tails', flip: 'heads', result: 'lose' }
 */
 
-function flipACoin(call) {
+export function flipACoin(call) {
   var result = {
     call: call,
     flip: coinFlip(),
