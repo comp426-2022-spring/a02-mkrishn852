@@ -18,7 +18,6 @@
  export function coinFlip() {
   var result;
   var rand_num = Math.random();
-
   if (rand_num < 0.5) {
     result = "heads";
   } else {
