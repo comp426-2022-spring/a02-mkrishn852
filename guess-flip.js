@@ -1,5 +1,5 @@
 import minimist from "minimist";
-import { flipACoin } from "./modules/coin.js";
+import { flipACoin } from "./modules/coin.mjs";
 
 const args = minimist(process.argv.slice(2));
 const call = args["call"];
