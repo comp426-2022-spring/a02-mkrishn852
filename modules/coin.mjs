@@ -45,7 +45,7 @@
   ]
 */
 
-export function coinFlips(flips) {
+export function coinFlips(flips) { 
   let flipList = [];
   let i = 0;
   for (let i=0; i < flips; i++) {
