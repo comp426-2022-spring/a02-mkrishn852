@@ -14,7 +14,7 @@
  * returns: heads 
  * 
  */
-
+ 
  export function coinFlip() { 
   var result;
   var random = Math.random();
