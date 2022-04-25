@@ -106,7 +106,7 @@ export function flipACoin(call) {
     call,
     flip: coinFlip(),
     result: "",
-  };
+  }; 
 
   if (statement.call === statement.flip) {
     statement.result = "win";
