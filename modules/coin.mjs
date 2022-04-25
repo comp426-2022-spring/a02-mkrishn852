@@ -46,7 +46,7 @@
 */
 
 export function coinFlips(flips) { 
-  let flipList = [];
+  let flipList = []; 
   let i = 0;
   for (let i=0; i < flips; i++) {
     flipList.push(coinFlip());
