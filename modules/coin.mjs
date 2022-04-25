@@ -79,7 +79,7 @@ export function countFlips(array) {
       heads += 1;
     }
   }
-  
+
   if (heads == 0) {
     count = { tails };
   } else if (tails == 0) {
@@ -107,6 +107,7 @@ export function flipACoin(call) {
     flip: coinFlip(),
     result: "",
   };
+  
   if (statement.call === statement.flip) {
     statement.result = "win";
   } else {
