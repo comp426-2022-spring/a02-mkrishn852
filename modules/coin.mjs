@@ -23,7 +23,7 @@
   } else {
     result = "tails";
   }
-  return result;
+  return result; 
 }
 
 /** Multiple coin flips
