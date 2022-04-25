@@ -7,15 +7,15 @@
  * 
  * Write a function that accepts no parameters but returns either heads or tails at random.
  * 
- * @param {*}
+ * @param {*} 
  * @returns {string} 
  * 
  * example: coinFlip()
- * returns: heads
+ * returns: heads 
  * 
  */
 
- export function coinFlip() {
+ export function coinFlip() { 
   var result;
   var rand_num = Math.random();
   if (rand_num < 0.5) {
